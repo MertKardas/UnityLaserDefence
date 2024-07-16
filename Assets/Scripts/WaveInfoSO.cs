@@ -7,7 +7,8 @@ public class WaveInfoSO : ScriptableObject
 {
     [SerializeField] List <GameObject> enemyPrefabs;
     [SerializeField] Transform path;
-    [SerializeField] float enemySpeed; 
+    [SerializeField] float enemySpeed;
+    [SerializeField] float spawnRateSecond;
     List<Transform> wayPoints; 
     
     public List <Transform> GetWayPoints(){
@@ -22,5 +23,9 @@ public class WaveInfoSO : ScriptableObject
     }
     public List<GameObject> GetEnemyPrefabs() {
         return enemyPrefabs; 
+    }
+    public int GetSpawnRateMiliecond() {
+       float spawnRateMilisecond = spawnRateSecond * 1000;
+       return (int)(spawnRateMilisecond);
     }
 }
