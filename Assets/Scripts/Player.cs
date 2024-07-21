@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -34,6 +35,7 @@ public class Player : MonoBehaviour {
     // This method is called by the Input System when the Move action is triggered
     public void OnMove(InputValue value) {
         moveVector = value.Get<Vector2>();
-        Debug.Log(moveVector);
+        // Debug.Log(moveVector);
     }
+    
 }

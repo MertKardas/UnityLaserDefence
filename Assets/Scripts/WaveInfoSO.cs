@@ -25,7 +25,7 @@ public class WaveInfoSO : ScriptableObject
         return enemyPrefabs; 
     }
     public int GetSpawnRateMiliecond() {
-       float spawnRateMilisecond = spawnRateSecond * 1000;
+        float spawnRateMilisecond = spawnRateSecond * 1000;
        return (int)(spawnRateMilisecond);
     }
 }
