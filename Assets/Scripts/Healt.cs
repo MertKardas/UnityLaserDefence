@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Healt : MonoBehaviour
 {
-    [SerializeField] float hp = 100f;
+    //[SerializeField] float hp = 100f;
     [SerializeField] LayerMask targetLayer; 
     
     Collider2D collider2d;

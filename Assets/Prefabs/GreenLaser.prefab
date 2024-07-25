@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 5051241283992716472}
   - component: {fileID: 7915222898894846705}
   - component: {fileID: -3161981188806415210}
+  - component: {fileID: 3241637517518795265}
   m_Layer: 6
-  m_Name: laserGreen07
+  m_Name: GreenLaser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72,8 +73,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 466727555
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c28fad9a30f98c34fa2d7d4ed2d359f9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -148,3 +149,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3241637517518795265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630360213229833553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83d9983a28e218b418b23b6fba28546a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  laserType: {fileID: 11400000, guid: 73ffbfd3aa2889742a7b32e501f00278, type: 2}

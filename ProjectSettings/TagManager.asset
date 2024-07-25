@@ -12,7 +12,7 @@ TagManager:
   - Water
   - UI
   - Laser
-  - 
+  - Enemy Laser
   - 
   - 
   - 
@@ -43,4 +43,7 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Front
+    uniqueID: 466727555
     locked: 0
